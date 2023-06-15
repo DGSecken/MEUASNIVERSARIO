@@ -1,0 +1,48 @@
+.bd-stats {
+
+    .container {
+        background-color: #fff;
+        padding: 0.2px 44px 36px;
+        margin-top: 20px;
+
+        @media(max-width: 640px) {
+            max-width: 85%;
+            margin-bottom: 20px;
+        }
+
+        @media(max-width: 1024px) {
+            max-width: 95%;
+            margin-bottom: 20px;
+        }
+
+    }
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        text-align: center; 
+        padding-top: 36px;
+
+        @media(max-width: 640px) {
+            display: block;
+        }
+    }
+
+    &__item {
+
+        @media(max-width: 640px) {
+            margin-bottom: 20px;
+        }
+
+        &__question {
+            font-size: 24px;
+            color: black;
+            font-weight: bold;
+            font-style: italic;
+        }
+        
+        &__answer {
+            font-size: 20px;
+            color: black;
+        }
+    }
+}
